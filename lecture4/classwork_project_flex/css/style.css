@@ -1,0 +1,58 @@
+* { 
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 580px); /* 580px - это половина ширины сайта, здесь левая половина*/
+    padding-right: calc(50% - 580px);
+}
+
+.top {
+    padding-bottom: 99px;
+}
+
+.header {
+    padding-top: 39px;
+    padding-bottom: 39px;
+    display: flex;
+    gap: 32px;
+}
+
+.top__content {
+    margin-top: 160px;
+    margin-bottom: 197px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+}
+
+.top__info {
+    width: 404px;
+}
+
+.subtitle  {
+    margin-bottom: 10px;
+}
+
+.title {
+    
+    margin-bottom: 40px;
+}
+
+.text {
+    width: 358px;
+}
+
+.top__buttons {
+    margin-top: 50px;
+}
+
+
