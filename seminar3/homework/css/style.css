@@ -1,19 +1,31 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header {
     margin-top: 40px;
-    margin-left: 375px;
+    /* margin-left: 375px; */
 }
 
-.logo {
+/* .logo {
     /* margin-top: 40px; */
-    margin-right: 500px;
-}
+    /* margin-right: 500px; */
+/*} */
 
 .menu {
+    width: 47px;
     /* padding-top: 51px; */
 }
 
