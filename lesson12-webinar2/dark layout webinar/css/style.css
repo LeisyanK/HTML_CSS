@@ -32,7 +32,7 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 1275px; 
+    max-width: 1275px; 
 }
 
 .header-link {
