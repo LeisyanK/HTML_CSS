@@ -126,7 +126,7 @@ body {
 } */
 
 .main {
-    margin-bottom: 200px;
+    margin-bottom: 197px;
 }
 
 /* блок logo */
@@ -366,14 +366,19 @@ body {
         /* gap: 128px; */
     }
 
-    .main-left, .main-right,
-    .apply-left, .apply-right,
+    .main-right,
+    .apply-left, 
     .about-left, .about-right {
         width: 73%;
     }
 
     .main-left {
+        width: 79%;
         margin-bottom: 128px;
+    }
+
+    .main-right {
+        width: 56%;
     }
 
     .apply-left {
@@ -381,11 +386,15 @@ body {
     }
 
     .apply-right {
-        text-align: center;
+        width: 63%;
     }
 
     .apply-dsc {
         margin-right: 24px;
+    }
+
+    .logo {
+        padding-bottom: 120px;
     }
 
     .logos {
@@ -394,7 +403,7 @@ body {
     }
 
     .grid {
-        grid-template-columns: repeat(1, 40%); /*40%;*/
+        grid-template-columns: repeat(1, 47%); /*40%;*/
         justify-content: center;
         gap: 32px;
     }
@@ -418,9 +427,18 @@ body {
         margin-bottom: 221px;
     }
 
+    .flex-footer{
+        gap: 30px;
+
+    }
+
     .footer-block {
-        width: 50%;
-        padding-left: 2px;
+        width: 47%;
+        padding-left: 5%;
+    }
+
+    .footer-text {
+        width: 80%;
     }
 }
 
@@ -430,7 +448,8 @@ body {
     }
 
     .header {
-        max-width: 90%;
+        max-width: 100%;
+        margin-bottom: 64px;
         /* gap: 16px; */
     }
 
@@ -447,6 +466,10 @@ body {
         text-align: center;
     }
 
+    .dsc {
+        margin-right: 0;
+    }
+
     .main-right {
         width: 100%;
     }
@@ -455,6 +478,7 @@ body {
     .apply-left, .apply-right,
     .about-left, .about-right {
         width: 90%;
+        margin-right: 0;
         
     }
 
@@ -473,14 +497,21 @@ body {
         flex-wrap: wrap;
         align-items: center;
     }
+    .main {
+        margin-bottom: 128px;
+    }
 
     .logo {
-        padding-bottom: 77px;
+        padding-bottom: 109px;
         margin-bottom: 96px;
     }
     .logos {
         width: 70%;
         margin-bottom: 32px;
+    }
+
+    .apply-right {
+        text-align: center;
     }
 
     .apply-title {
@@ -490,7 +521,7 @@ body {
 
     .apply-dsc {
         margin-right: 0;
-        margin-bottom: 16px;
+        margin-bottom: 31px;
     }
 
     .apply {
@@ -509,14 +540,55 @@ body {
 
     .about-title {
         font-size: 24px;
+        margin-bottom: 16px;
     }
 
     .about-left {
         text-align: center;
+        margin-bottom: 32px;
     }
 
     .about-text {
         margin-right: 0;
         margin-bottom: 16px;
+    }
+
+    .about {
+        margin-bottom: 96px;
+    }
+
+    .footer {
+        padding-top: 96px;
+    }
+
+    .flex-footer {
+        flex-direction: column;
+        align-content: center;
+        gap: 32px;
+    }
+
+    .footer-block {
+        width: 90%;
+    }
+
+    .footer-title {
+        text-align: center;
+    }
+
+    .footer-text {
+        width: 82%;
+    }
+
+    .second {
+        order: 0;
+    }
+
+    .first{
+        order: 1;
+    }
+
+    .third {
+        order: 2;
+        text-align: center;
     }
 }
