@@ -1,0 +1,148 @@
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 3% 2% 0;
+}
+
+.item-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-1 {
+    background-image: url(top__img.svg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    width: 65%;
+}
+
+.item-parent {
+    width: 32%;
+}
+
+.item-2, .item-3 {    
+    min-height: 180px;
+    /* width: 32%;
+    padding-bottom: 10px;
+    background-image: url(top__img.svg); */
+}
+
+.item-2 {
+    margin-bottom: 40px;
+}
+
+.item {
+    background-color: #ccc;
+}
+
+.img-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 32%;
+    min-height: 350px;
+    background-color: brown;
+    margin-bottom: 3%;
+}
+
+.rew-flex {
+    display: flex;
+}
+
+.rew-box {
+    flex-grow: 1;
+    padding: 0 3%;
+}
+
+.box-rew-img {
+    display: flex;
+    justify-content: center;
+}
+
+.rew-img {
+    height: 100px;
+}
+
+.figcaption {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+@media (max-width: 1024px) {
+    .item-flex {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .item-1 {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .item-parent {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .item-2, .item-3 {
+        width: 48%;
+    }
+
+    .item-2 {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .item-parent {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .item-2, .item-3, .product {
+        width: 100%;
+        min-height: 180px;
+    }
+
+    .item-1 {
+        width: 100%;
+        min-height: 180px;
+        margin-bottom: 3%;
+    }
+
+    .img-flex {
+        flex-wrap: wrap;
+    }
+    
+    .rew-flex {
+        flex-direction: column;
+    }
+}
+
+/* @media screen and (min-width: 376px) and (max-width: 768px) { */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .rew-flex {
+        flex-direction: column;
+    }
+
+    .rew-box {
+        display: flex;
+        padding-bottom: 3%;
+    }
+}
